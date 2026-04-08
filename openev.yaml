@@ -1,0 +1,8 @@
+name : student-task-env
+description: simple environment to simulate student task completion
+actions:
+-study
+-rest
+state:
+progress: 0-100
+reward: progress based (0 to 1)
